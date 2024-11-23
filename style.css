@@ -13,6 +13,12 @@ body{
     padding: 0 165px;
 }
 
+.second,
+.third,
+.fourth{
+    height: 450px;
+}
+
 .first, .footer{
     background-color: #1f2937;
 }
@@ -94,10 +100,36 @@ button{
 }
 
 .second{
-    
+    text-align: center;    
 }
 
+.second .title{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 48px 0;
+}
 
+.information{
+    max-width: 180px;
+}
+
+.image{
+    height: 180px;
+    border: 4px #3882f6 solid;
+    border-radius: 25px;
+    margin-bottom: 8px;
+}
+
+.information .subtext{
+    color: #1f2937;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
 
 
 .third{
