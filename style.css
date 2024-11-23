@@ -90,7 +90,7 @@ button{
     font-size: 18px;
     background-color: #3882f6;
     color: white;
-    border: #3882f6 solid 1px;
+    border: #3882f6 solid 2px;
     border-radius: 8px;
     padding: 8px 30px;
 }
@@ -155,4 +155,38 @@ button{
     margin-left: auto;
     font-size: 22px;
     font-weight: 700;
+}
+
+.fourth{
+    align-content: center;
+}
+
+.call{
+    height: 170px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call .title{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.call .subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer{
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
